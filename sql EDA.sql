@@ -1,3 +1,5 @@
+--world_layoffs EDA PROJECT
+
 SELECT *
 FROM layoffs_staging2;
 
@@ -5,7 +7,7 @@ SELECT MAX(total_laid_off), MAX(percentage_laid_off)
 FROM layoffs_staging2;
 
 SELECT MIN(total_laid_off), MIN(percentage_laid_off)
-from layoffs_staging2;
+FROM layoffs_staging2;
 
 SELECT *
 FROM layoffs_staging2
@@ -114,10 +116,6 @@ WHERE years IS NOT NULL
 SELECT *
 FROM COMPANY_YEAR_RANK
 WHERE Ranking <= 5;
-
-
-
-
 
 SELECT * 
 FROM layoffs_staging2;
